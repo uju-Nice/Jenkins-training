@@ -5,7 +5,7 @@ pipeline {
     stages{
         stage('Git Checkout'){
            steps{
-            git credentialsId: '09820cf9-0047-4f02-93d4-a31e09ce5b38', url: 'https://github.com/uju-Nice/terraform_training'   
+            git credentialsId: '09820cf9-0047-4f02-93d4-a31e09ce5b38', url: 'https://github.com/uju-Nice/Jenkins-training/blob/master/Jenkinsfile'   
            } 
         }
         
